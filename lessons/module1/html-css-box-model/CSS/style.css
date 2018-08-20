@@ -1,0 +1,21 @@
+.hello {
+  background-color: rebeccapurple;
+  color: white;
+}
+
+.bye {
+  background-color: gold;
+}
+
+p {
+  width: 300px;
+  height: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 75px;
+  padding-right: 75px;
+  border: 10px solid crimson; 
+  box-sizing: border-box;
+  border-radius: 150px;
+  margin: 100px;
+}

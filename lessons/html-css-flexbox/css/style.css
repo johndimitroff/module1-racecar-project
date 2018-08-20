@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+
+nav {
+  border: 2px solid orange;
+}
+
+div {
+  border: 2px solid red; 
+}
+
+section {
+  border: 2px solid black;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+  list-style: none
+}
+
+li {
+  width: 15%;
+  padding: 2%;
+  border: 1px solid gray;
+}

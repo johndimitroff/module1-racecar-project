@@ -1,0 +1,43 @@
+.menu > li {
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 5px; 
+  list-style: none;
+}
+
+em {
+  text-decoration: underline;
+}
+
+.other-list em {
+  color: red;
+}
+
+.special-link {
+  background-color: rebeccapurple;
+  color: white;
+  padding: 20px 40px;
+  font-size: 20px
+}
+
+/* applies to <p> immpediately after a tag with a "spacial link" */
+.special-link + p { 
+  color: grey;
+}
+
+
+/* you can make also achieve the same thing by 
+writing less code by doing the following: */
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+html,
+body,
+.container {
+  height: 100%;
+}
+

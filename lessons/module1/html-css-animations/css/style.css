@@ -1,0 +1,46 @@
+button {
+  background-color: #2ac65c;
+  color: white;
+  border: 3px solid #17aa56;
+  border-radius: 3px;
+  font-size: 20px;
+  padding: 10px 25px;
+  transition: 0.5s;
+  /* transition-delay: 0.5s;
+  transition-property: padding, font-size; */
+  /* transition-timing-function: linear; */
+  /*linear, ease, ease-in, ease-out ease-in-out */
+  transition-property: cubic-bezier(0,1.93,1,.15);
+  /* you can make this at cubicbezier.com */
+}
+
+button:hover {
+  border-radius: 7px;
+  border-width: 7px;
+  font-size: 40px;
+  padding: 20px 50px;
+  background-color: deeppink;
+}
+img{
+  position:absolute;
+  width: 300px;
+  animation: 4s crazyflip;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes crazyflip {
+  0% {
+    right: -300px;
+  }
+
+  50% {
+    right: 200px;
+    transform: rotateX(0);
+  }
+
+  100% {
+    right: 200px;
+    transform: rotateX(360deg);
+  }
+}
